@@ -14,6 +14,7 @@ import { DeveloperConsole } from './substrate-lib/components'
 
 import AccountSelector from './AccountSelector'
 import Balances from './Balances'
+import Daos from './Daos'
 import BlockNumber from './BlockNumber'
 import Events from './Events'
 import Interactor from './Interactor'
@@ -69,6 +70,9 @@ function Main() {
             <Metadata />
             <BlockNumber />
             <BlockNumber finalized />
+          </Grid.Row>
+          <Grid.Row stretched>
+            <Daos />
           </Grid.Row>
           <Grid.Row stretched>
             <Balances />
